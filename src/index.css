@@ -86,6 +86,10 @@ a.brand{
   justify-content: center;
 }
 
+.row.top{
+  align-items: flex-start;
+}
+
 img{
   border-radius: 0.5rem;
 }
@@ -119,4 +123,86 @@ img.medium{
 .rating span{
   color: #f0c040;
   margin: 0.1rem;
+}
+
+
+.rating span:last-child{
+  color: #404040;
+}
+
+.col-1{
+  flex: 1 1 25rem;
+}
+
+.col-2{
+  flex: 2 1 50rem;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+li{
+  margin-top: 1rem;
+
+}
+/* alert*/
+
+.success{
+  color: #20a120;
+}
+
+.danger{
+  color: #a02020;
+}
+.alert{
+  padding: 1rem;
+  border:0.1rem solid transparent;
+  border: 0.5rem;
+}
+.alert-info{
+  color: #2020a0;
+  background-color: #e0e0ff;
+}
+.alert-error{
+  color: #a02020;
+  background-color: #ffe0e0e0;
+}
+input , 
+select,
+textarea,
+button{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #a4a4a4 solid;
+  font-size: 1.6rem;
+  font-family:  Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+
+}
+button{
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+button.primary{
+  background-color: #f0c040;
+}
+
+button.block{
+  width: 100%;
+}
+input:hover , 
+select:hover,
+textarea:hover,
+button:hover{
+  border: 0.1rem #404040 solid;
+}
+img.large{
+  width: 90%;
+
 }
