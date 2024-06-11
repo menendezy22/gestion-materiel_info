@@ -1,10 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+clone the projet with :git clone https://github.com/menendezy22/gestion-materiel_info.git
 
-## Available Scripts
+## install packages
 
-In the project directory, you can run:
+In the project directory, you can run:npm install
 
 ### `npm start`
 
